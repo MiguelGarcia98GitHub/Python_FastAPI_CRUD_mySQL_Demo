@@ -1,0 +1,49 @@
+# .gitignore
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.py[cod]
+*$py.class
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+*.egg-info/
+eggs/
+parts/
+var/
+*.pid
+*.log
+*.swp
+*~
+*#
+.#*
+.cache/
+.pytest_cache/
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+
+# FastAPI
+.env
+.dockerenv
+
+# Editors
+.vscode/
+.idea/
+
+# Databases
+*.sqlite
+
+# Env
+.env
+
+# Additional Info
+projectinfo
+start_command.txt
